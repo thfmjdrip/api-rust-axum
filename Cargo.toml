@@ -1,0 +1,9 @@
+[package]
+name = "api-axum-indiano"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.9"
+sqlx = { version = "0.9.1", features = ["runtime-tokio", "postgres"] }
+tokio = { version = "1.54.1", features = ["full"] }
